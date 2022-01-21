@@ -16,6 +16,9 @@ export default defineConfig({
       include: resolve(__dirname, "./locales/**"),
     }),
   ],
+  server: {
+    port: 8080
+  },
   define: { "process.env": {} },
   css: {
     preprocessorOptions: {
